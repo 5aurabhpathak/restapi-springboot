@@ -2,11 +2,11 @@ package com.example.demo;
 
 public class APIpost {
 
-    private final int register;
-    private final long value;
+    private int register;
+    private long value;
     
-    public APIpost(int register, long value) {
-        this.register = register;
-        this.value = value;
+    public boolean getSuccess() {
+    	//do something with post data; return false if failed
+    	return true;
     }
 }
