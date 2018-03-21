@@ -2,11 +2,14 @@ package com.example.demo;
 
 public class APIpost {
 
-    private int register;
-    private long value;
+    public int register;
+    public long value;
     
-    public boolean getSuccess() {
-    	//do something with post data; return false if failed
-    	return true;
+    public int getRegister() {
+    	return register;
+    }
+    
+    public long getValue() {
+    	return value;
     }
 }
